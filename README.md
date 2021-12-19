@@ -3,6 +3,8 @@ Third time's a charm.
 
 Converts JSON/JS objects to a iterable that yields all primitive values.
 
+Currently filters/ignores circular references.
+
 
 ```js
 const a = {
